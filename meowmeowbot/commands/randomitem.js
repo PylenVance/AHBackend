@@ -25,7 +25,7 @@ async function connectDb() {
 }
 
 function userHasRole(interaction) {
-  return interaction.member?.roles.cache.has("1386755278959280260");
+  return interaction.member?.roles.cache.has("1397899730943479930");
 }
 
 // Helper to format duration string for queue, e.g. 3600 -> "1h"

@@ -29,7 +29,7 @@ const rest = new REST({ version: "10" }).setToken(process.env.DISCORD_TOKEN);
   try {
     console.log("Registering slash commands...");
     await rest.put(
-      Routes.applicationCommands("1385383495400034365"), // replace with your bot client ID
+      Routes.applicationCommands("1397899613188390912"), // replace with your bot client ID
       { body: commands }
     );
     console.log("✅ Commands registered.");

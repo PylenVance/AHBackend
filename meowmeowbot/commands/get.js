@@ -16,7 +16,7 @@ require("dotenv").config();
 const mongoClient = new MongoClient(process.env.MONGO_URI);
 let itemsCollection;
 
-const REQUEST_CHANNEL_ID = "1390342173819670538"; // Set your mod channel ID here
+const REQUEST_CHANNEL_ID = "1397880168575664186"; // Set your mod channel ID here
 
 // Setup ChartJS canvas
 const width = 800;
@@ -38,7 +38,7 @@ function formatNumberWithCommas(number) {
 }
 
 function userHasRole(interaction) {
-  const allowedRoles = ["1386503577186471976", "1386755278959280260"];
+  const allowedRoles = ["1397880167099273332", "1397899730943479930"];
   return interaction.member?.roles.cache.some((role) =>
     allowedRoles.includes(role.id)
   );

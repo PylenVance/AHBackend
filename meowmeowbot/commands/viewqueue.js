@@ -8,7 +8,7 @@ const mongoClient = new MongoClient(MONGO_URI);
 let dropCollection;
 
 function userHasRole(interaction) {
-  return interaction.member?.roles.cache.has("1385356117072150558");
+  return interaction.member?.roles.cache.has("1397899730943479930");
 }
 
 async function connectDb() {

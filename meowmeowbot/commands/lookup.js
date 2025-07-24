@@ -20,7 +20,7 @@ const OPEN_CLOUD_TOKEN = process.env.DATASTORE_KEY;
 const DATASTORE_NAME = "DATA_2";
 
 function userHasRole(interaction) {
-  return interaction.member?.roles.cache.has("1391438244259823758");
+  return interaction.member?.roles.cache.has("1397899730943479930");
 }
 
 // async function publishRobloxMessage(user) {

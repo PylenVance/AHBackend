@@ -29,7 +29,7 @@ function parseDuration(str) {
 }
 
 function userHasRole(interaction) {
-  return interaction.member?.roles.cache.has("1386755278959280260");
+  return interaction.member?.roles.cache.has("1397899730943479930");
 }
 
 module.exports = {
@@ -203,7 +203,7 @@ module.exports = {
 
         try {
           await axios.post("http://127.0.0.1:3003", {
-            channel_id: "1395779865696796693",
+            channel_id: "1397880168030146570",
             msg: embed,
           });
         } catch (err) {
